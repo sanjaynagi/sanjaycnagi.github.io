@@ -1,20 +1,17 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
 #  - title: "Talks"
 #    url: /talks/    #
 #
 #  - title: "Teaching"
-#    url: /teaching/    
-#    
-#  - title: "Portfolio"
-#    url: /portfolio/
+#    url: /teaching/
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
     
+  - title: "Publications"
+    url: /publications/
+
   - title: "CV"
     url: /files/SanjayCNagi-CV-2020.pdf
     

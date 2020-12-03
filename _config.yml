@@ -84,7 +84,7 @@ author:
   avatar           : "avatar.png"
   bio              : "PhD student studying population genomics and insecticide resistance in the Malaria mosquito"
   location         : "Liverpool, UK"
-  employer         :
+  employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=sanjay+nagi"
   googlescholar    : "https://scholar.google.com/citations?user=P-ImwEcAAAAJ&hl=en"
   email            : "sanjay.c.nagi@gmail.com"
@@ -265,6 +265,7 @@ plugins_dir:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
