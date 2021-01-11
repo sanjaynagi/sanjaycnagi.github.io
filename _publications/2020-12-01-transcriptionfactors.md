@@ -1,7 +1,7 @@
 ---
 title: "Capturing the transcription factor interactome in response to sub-lethal insecticide exposure"
 collection: publications
-permalink: /publication/2020-12-01-transcriptionfactors.md
+permalink: /publication/2020-12-01-transcriptionfactors
 excerpt: 'Investigating the role of various transcription factors in insecticide resistance in <i>Anopheles gambiae</i>'
 date: 2020-11-29
 venue: 'bioRxiv'
