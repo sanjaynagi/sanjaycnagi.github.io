@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "Sanjay Curtis Nagi"
 title_separator          : "-"
 name                     : &name "Sanjay Curtis Nagi"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sanjay Curtis Nagi"
   avatar           : "avatar.png"
-  bio              : "PhD student studying population genomics and insecticide resistance in the Malaria mosquito"
+  bio              : "PhD student studying population genomics and insecticide resistance in the malaria mosquito"
   location         : "Liverpool, UK"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=sanjay+nagi"
