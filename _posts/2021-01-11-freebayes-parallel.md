@@ -2,14 +2,13 @@
 title: "Parallelising freebayes with snakemake"
 author: "Sanjay C Nagi"
 date: "11/01/2021"
-output: html_document
 comments: true
 tags:
   - bioinformatics
   - variant calling
 ---
 
-[`Freebayes`](https://github.com/freebayes/freebayes) is a bayesian haplotype-based variant caller, used widely in genomics. As with many variant callers, it is not readily parallelised, but can be done so by splitting the genome into smaller chunks, calling them separately, and subsequently combining the chunks together.
+[`freebayes`](https://github.com/freebayes/freebayes) is a bayesian haplotype-based variant caller, used widely in genomics. As with many variant callers, it is not readily parallelised, but can be done so by splitting the genome into smaller chunks, calling them separately, and subsequently combining the chunks together.
 
 A wrapper for freebayes, [`freebayes-parallel`](https://github.com/freebayes/freebayes/blob/master/scripts/freebayes-parallel), does exactly this, making use of `gnu-parallel`. However, this approach has a couple of major limitations:
 
@@ -54,6 +53,3 @@ I'll leave you with a song I've been enjoying recently. Happy variant calling.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1fBEEANitDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-{% if page.comments %}
-{% include comments-providers/disqus.html %}
-{% endif %}
