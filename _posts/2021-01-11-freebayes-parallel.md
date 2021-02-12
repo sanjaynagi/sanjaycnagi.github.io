@@ -10,11 +10,9 @@ tags:
 
 [`freebayes`](https://github.com/freebayes/freebayes) is a bayesian haplotype-based variant caller, used widely in genomics. As with many variant callers, it is not readily parallelised, but can be done so by splitting the genome into smaller chunks, calling them separately, and subsequently combining the chunks together.
 
-A wrapper for freebayes, [`freebayes-parallel`](https://github.com/freebayes/freebayes/blob/master/scripts/freebayes-parallel), does exactly this, making use of `gnu-parallel`. However, this approach has a couple of major limitations:
+A wrapper for freebayes, [`freebayes-parallel`](https://github.com/freebayes/freebayes/blob/master/scripts/freebayes-parallel), does exactly this, making use of `gnu-parallel`. However, this approach has a major limitations:
 
-1)   When a chunk is completed, that cpu core will not move onto the next region until all cores have completed their respective chunk. This is particularly problematic in regions of variable coverage, and so one can attempt to split the genome into regions of roughly equal coverage. Unfortunately, this still results in many cores being unused for substantial periods of time.
-
-2)   It is not possible to perform joint multi-sample calling with the freebayes-parallel wrapper (!!!)
+* When a chunk is completed, that cpu core will not move onto the next region until all cores have completed their respective chunk. This is particularly problematic in regions of variable coverage, and so one can attempt to split the genome into regions of roughly equal coverage. Unfortunately, this still results in many cores being unused for substantial periods of time.
 
 I was implementing a `freebayes` variant calling step in a snakemake RNA-Sequencing pipeline I was writing (more on this later), and wanted to parallelise freebayes, without the above limitations. 
 
