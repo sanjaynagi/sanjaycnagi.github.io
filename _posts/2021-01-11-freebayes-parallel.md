@@ -10,11 +10,11 @@ tags:
 
 [`freebayes`](https://github.com/freebayes/freebayes) is a bayesian haplotype-based variant caller, used widely in genomics. As with many variant callers, it is not readily parallelised, but can be done so by splitting the genome into smaller chunks, calling them separately, and subsequently combining the chunks together.
 
-A wrapper for freebayes, [`freebayes-parallel`](https://github.com/freebayes/freebayes/blob/master/scripts/freebayes-parallel), does exactly this, making use of `gnu-parallel`. However, this approach has a major limitations:
+A wrapper for freebayes, [`freebayes-parallel`](https://github.com/freebayes/freebayes/blob/master/scripts/freebayes-parallel), does exactly this, making use of `gnu-parallel`. However, this approach has a major limitation:
 
 * When a chunk is completed, that cpu core will not move onto the next region until all cores have completed their respective chunk. This is particularly problematic in regions of variable coverage, and so one can attempt to split the genome into regions of roughly equal coverage. Unfortunately, this still results in many cores being unused for substantial periods of time.
 
-I was implementing a `freebayes` variant calling step in a snakemake RNA-Sequencing pipeline I was writing (more on this later), and wanted to parallelise freebayes, without the above limitations. 
+I was implementing a `freebayes` variant calling step in a snakemake RNA-Sequencing pipeline I was writing (more on this later), and wanted to parallelise freebayes, without the above limitation. 
 
 To do so, we can write a snakemake rule (below) which runs an [R script](https://github.com/sanjaynagi/rna-seq-ir/blob/master/workflow/scripts/GenerateFreebayesParams.R) to read in the genome index (.fai) file, and output multiple bed files, breaking the genome into chunks of equal size. By using an extra snakemake wildcard, the index of each genome chunk, we can produce, and supply freebayes with different bed files. Finally, after concatenating the vcfs with `bcftools concat` it is also important to stream the output through `vcfuniq`, to ensure there are no duplicate calls at the region overlaps. 
 
