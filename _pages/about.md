@@ -8,10 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-My work is focused on major mosquito vectors of disease. I am interested in population genomics, and in particular, the rapid evolution and spread of resistance in the major malaria vector, *Anopheles gambiae*, is a major focus. I am also interested in investigating the underlying genetic mechanisms behind the regulation of resistance-associated genes, such as the involvement of non-coding RNAs.
+Hello! I'm a PhD student at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/), in the Vector Informatics and Genomics group.
 
-I was recently awarded an MRC CASE studentship, at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/). The studentship is a 4 year programme - a 1 year [MRes](https://www.lancaster.ac.uk/study/postgraduate/postgraduate-courses/global-health-translational-and-quantitative-skills-mres/) followed by a 3 year PhD. 
+To date, my work has focused on major mosquito vectors of disease. In particular, the rapid evolution and spread of resistance in the major malaria vector, *Anopheles gambiae*, is a major focus. I am also interested in the underlying genetic mechanisms behind the regulation of resistance-associated genes, such as the involvement of non-coding RNAs.
 
-My PhD aims to determine the role of genomic surveillance of a vector population during an intervention, in the context of a large-scale next generation bed-net trial. As part of the project, we will discover genomic variants under selection, and apply CRISPR-Cas based transgenesis to investigate the role of these in conferring resistance to insecticides.
+### My PhD 
+
+I was recently awarded an MRC CASE studentship, at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/), under the supervision of [Professor Martin J Donnelly](https://www.lstmed.ac.uk/about/people/professor-martin-james-donnelly). My PhD aims to determine the role of genomic surveillance of a vector population during an intervention, in the context of a large-scale next generation bed-net trial. As part of the project, we will discover genomic variants under selection, and apply CRISPR-Cas9 based transgenesis to investigate the role of these in conferring resistance to insecticides. I have also developed a snakemake RNA-Sequencing workflow for analyses into insecticide resistance, investigated a large selective sweep in West African populations of *Anopheles gambiae s.s.*, and in the process of developing an Illumina amplicon sequencing panel. 
 
 During my three MRes rotations, I applied machine learning algorithms to the [Anopheles 1000 genomes](http://www.malariagen.net/ag1000g) data, built gene regulatory networks in the context of insecticide resistance, and was fortunate enough to conduct fieldwork on the Illovo sugar estate, Chikwawa, Malawi.
+
+Here is me hard at work - running through an irrigation system, sugar cane in hand...
+
+![Chikwawa, Malawi](../images/runningmalawi.png)
+
+### Contact 
+
+Feel free to [get in touch!](mailto:sanjay.c.nagi@gmail.com)
