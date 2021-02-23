@@ -20,7 +20,7 @@ During my three MRes rotations, I applied machine learning algorithms to the [An
 
 Here is me hard at work - running through an irrigation system, sugar cane in hand...
 
-![Chikwawa, Malawi](../images/runningmalawi.png)
+![Chikwawa, Malawi](../images/runningmalawismall.png)
 
 ### Contact 
 
