@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I'm a PhD student at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/), in the Vector Informatics and Genomics group.
 
-To date, my work has focused on major mosquito vectors of disease. In particular, the rapid evolution and spread of resistance in the major malaria vector, *Anopheles gambiae*, is a major focus. I am also interested in the underlying genetic mechanisms behind the regulation of resistance-associated genes, such as the involvement of non-coding RNAs.
+To date, my work has focused on major mosquito vectors of disease. In particular, the rapid evolution and spread of resistance in the major malaria vector, *Anopheles gambiae*, is a major focus. I am primarily interested in population genomics - particularly spatial population genetics and methods to detect selection. 
 
 ### My PhD 
 

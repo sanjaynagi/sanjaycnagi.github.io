@@ -47,6 +47,8 @@ rule GenerateFreebayesParams:
         "../scripts/GenerateFreebayesParams.R"
 ```
 
+*Update - 09/03/2021 - In the beautiful nature of open source software development, I have now written a parallelisation section in the [freebayes documentation](https://github.com/freebayes/freebayes) :)*
+
 I'll leave you with a song I've been enjoying recently. Happy variant calling.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1fBEEANitDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
